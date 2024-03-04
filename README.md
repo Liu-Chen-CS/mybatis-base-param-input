@@ -1,4 +1,4 @@
-# How Mybatis takes parameters from frontend
+# Using #{key} in Mybatis to receive parameters from frontend
 
 ### I used
  - MySQL 8.0

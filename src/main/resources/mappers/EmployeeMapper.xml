@@ -9,4 +9,8 @@
             from employee where emp_id = #{id}
     </select>
 
+    <insert id="insertEmployee">
+        insert into employee (emp_id, emp_name, emp_salary) values(#{empId}, #{empName}, #{empSalary})
+    </insert>
+
 </mapper>

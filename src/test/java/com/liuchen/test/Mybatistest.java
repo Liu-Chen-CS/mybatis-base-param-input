@@ -36,6 +36,8 @@ public class Mybatistest {
         Employee employee = employeeMapper.queryById(2);
         System.out.println(employee);
 
+        employeeMapper.insertEmployee(new Employee(7, "George Reece", 3000.0));
+
 
         // Commit session
         sqlSession.commit();

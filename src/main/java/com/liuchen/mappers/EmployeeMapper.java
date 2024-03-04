@@ -15,4 +15,6 @@ public interface EmployeeMapper {
 
     Employee queryById(Integer id);
 
+    int insertEmployee(Employee emp);
+
 }

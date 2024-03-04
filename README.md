@@ -5,8 +5,8 @@
  - DataGrip
  - Mybatis 3.5
 
-### data types
- - primitive types
+### Parameters
+ - primitive types / more than one primitive types
     - `byte`
     - `short`
     - `char`
